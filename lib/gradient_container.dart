@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:rolldice/text_container.dart';
 
-Color startGradient = Color.fromARGB(255, 207, 53, 19);
-Color stopGradient = Color.fromARGB(255, 255, 92, 92);
+const Color startGradient = Color.fromARGB(255, 207, 53, 19);
+const Color stopGradient = Color.fromARGB(255, 255, 92, 92);
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
@@ -13,7 +13,7 @@ class GradientContainer extends StatelessWidget {
       decoration: const BoxDecoration(
         gradient: LinearGradient(colors: [startGradient, stopGradient]),
       ), //supposed to add a gradint here but I am not going to add it. I am jjust tired
-      child: Center(child: TextContainer()),
+      child: Center(child: TextContainer('My Name is Vachan')),
     );
   }
 }
