@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:rolldice/text_container.dart';
 
-const startGradient = Color.fromARGB(255, 207, 53, 19);
-const stopGradient = Color.fromARGB(255, 255, 92, 92);
+Color startGradient = Color.fromARGB(255, 207, 53, 19);
+Color stopGradient = Color.fromARGB(255, 255, 92, 92);
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
